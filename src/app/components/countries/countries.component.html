@@ -1,0 +1,18 @@
+
+
+<h2>Países Europeos</h2>
+<table class="table">
+  <table class="table">
+  <thead >
+    <tr>
+      <th scope="col">Nombre</th>
+      <th scope="col">Habitantes</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let country of countries">
+        <td>{{ country.translations.es }}</td>
+        <td>{{ country.population | number }}</td>        
+      </tr>
+  </tbody>
+</table>
