@@ -30,7 +30,9 @@
 
 https://github.com/angular/angular-cli/blob/master/packages/angular/cli/README.md#installation
 
-## 4.- Ejecutar navegar con la consola a la carpeta y ejecutar ng serve -o
+## 4.- Navegar con la consola a la carpeta del proyecto y ejecutar:
+
+  ng serve -o
 
 # Ayuda por defecto de Angular CLI
 
